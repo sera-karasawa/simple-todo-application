@@ -20,7 +20,7 @@ function addTask(title) {
     // やることのタイトルを設定(このままだと、すべてのタイトルがHello Worldになってしまう！)
     task.title = "Hello World"
 
-    // 以降は無視して良い
+    // 以降は無視して良い　
     tasks.push(task);
     drawTask(task, tasks.length - 1);
 }
